@@ -1,0 +1,12 @@
+.subtitle {
+    font-weight: bold;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    z-index: 2;
+    &_circle-left {
+        padding-left: 10px;
+        @include before-circle;
+    }
+}
