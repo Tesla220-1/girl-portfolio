@@ -9,7 +9,6 @@
     margin: 0;
     padding: 0;
     line-height: 1;
-    position: relative;
 }
 
 .container {
@@ -24,3 +23,5 @@
 @import 'blocks/menu';
 @import 'blocks/promo';
 @import 'blocks/sidepanel';
+@import 'blocks/about-me';
+@import 'blocks/divider';
