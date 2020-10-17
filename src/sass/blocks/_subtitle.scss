@@ -11,4 +11,7 @@
         padding-left: 10px;
         @include before-circle;
     }
+    &_circle-center {
+        @include center-circle;
+    }
 }
