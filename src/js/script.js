@@ -18,3 +18,10 @@ menuClose.addEventListener('click', function(){
 menuOverlay.addEventListener('click', function(){
     menu.classList.remove('active');
 });
+
+const barPercent = document.querySelectorAll('.skills__bar-percent'),
+      lineActive = document.querySelectorAll('.skills__bar-empty span');
+
+barPercent.forEach((element, i) => {
+    lineActive[i].style.width = barPercent[i].innerHTML;
+});

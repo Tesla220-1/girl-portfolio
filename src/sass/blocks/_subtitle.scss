@@ -14,4 +14,7 @@
     &_circle-center {
         @include center-circle;
     }
+    &_center {
+        text-align: center;
+    }
 }
