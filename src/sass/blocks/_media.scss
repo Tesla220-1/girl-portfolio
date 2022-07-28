@@ -147,8 +147,6 @@
     }
 }
 
-
-
 @media (max-width: 768px) {
     .container {
         max-width: 540px;
@@ -201,7 +199,6 @@
         }
     }
 }
-
 
 @media (max-width: 576px) {
     .container {
@@ -309,8 +306,11 @@
             width: 100%;
             height: 143px;
         }
+        &__wrapper {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
         .btn_form {
-            font-size: 12px;
             display: block;
             margin: 0 auto;
         }
